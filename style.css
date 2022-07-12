@@ -1,0 +1,40 @@
+#header, #explanation, #footer{
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+    border: 2px;
+    border-style: solid;
+    border-color: red;
+    width: 100%;
+}
+
+#contentcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.maincontent {
+    display:flex;
+    position: relative;
+    border: 2px;
+    margin: 2px;
+    border-style: solid;
+    border-color: red;
+    min-width: 400px;
+    min-height: 200px;
+    margin-top: 50px;
+}
+
+.maincontent header{
+    position: absolute;
+    top: -30px;
+    left: 110px;
+    border: solid red;
+    background-color: white;
+}
+
+pre{
+    justify-content:center;
+    align-items: center;
+}
